@@ -22,6 +22,6 @@ Finally, set all flask variables for execution:
 
 ```bash
 export FLASK_APP=app
-export FLASK_DEBUG=1 # 0 for non-debug mode
+export FLASK_DEBUG=1
 flask run # runs the app and starts to listen to petitions
 ```

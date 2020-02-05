@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flask Auth Example</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                             <a href="{{ url_for('main.profile') }}" class="navbar-item">
                                 Profile
                             </a>
-                            <a href="{{ url_for('auth.login') }}" class="navbar-item">
+                            <a href="{{ url_for('auth.login_get') }}" class="navbar-item">
                                 Login
                             </a>
                             <a href="{{ url_for('auth.signup_get') }}" class="navbar-item">
